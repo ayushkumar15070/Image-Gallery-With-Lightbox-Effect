@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Image Gallery with Lightbox</title>
+      <link rel="stylesheet" href="lightbox.css">
+</head>
+
+<body>
+      <div class="gallery">
+            <img src="https://images.pexels.com/photos/1192671/pexels-photo-1192671.jpeg?auto=compress&cs=tinysrgb&w=600"
+                  alt="Image 1" class="gallery-img">
+            <img src="https://images.pexels.com/photos/237272/pexels-photo-237272.jpeg?auto=compress&cs=tinysrgb&w=600"
+                  alt="Image 2" class="gallery-img">
+            <img src="https://images.pexels.com/photos/457882/pexels-photo-457882.jpeg?auto=compress&cs=tinysrgb&w=600"
+                  alt="Image 3" class="gallery-img">
+            <img src="https://images.pexels.com/photos/994605/pexels-photo-994605.jpeg?auto=compress&cs=tinysrgb&w=600"
+                  alt="Image 4" class="gallery-img">
+      </div>
+
+      <div id="lightbox" class="lightbox">
+            <span class="close">&times;</span>
+            <img class="lightbox-content" id="lightbox-img" alt="image 5">
+      </div>
+
+      <script src="lightbox.js"></script>
+</body>
+
+</html>
